@@ -14,7 +14,7 @@ Codes description
 * `theClock`: Shows window form with current date and clock. Just demonstrate how to do it in Qt C++<br>
    **Note :** This code is not well optimized. If any tips, write me about.<br>
 
-   * `All Applications`:<br>
+* `All Applications`:<br>
    ***Requires :*** [Qt Creator][qt-project] preinstalled, Windows 7, Mac OS 10.6 or Linux<br>
    ***Important:*** To distribute your compiled programm you need to add additional libs into your relese folder.
    
