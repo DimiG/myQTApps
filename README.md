@@ -13,13 +13,10 @@ Codes description
 
 * `QTstatic`: This folder with PowerShell [script][QtlMovie] inside downloads a Qt source code, compiles and installs a static version of Qt.<br>
    This script adds a static version of the Qt libraries in order to allow the construction of standalone and self-sufficient executable.<br>
-   ***Requires :*** [Qt Creator][qt-project] preinstalled (prebuilt Qt / MinGW environment), Windows 7, Mac OS 10.6 or Linux<br>
-   Windows PowerShell 3.0 or higher, 7-zip.<br>
+   ***Requires :*** [Qt Creator][qt-project] preinstalled (prebuilt Qt / MinGW environment), Windows 7, Mac OS 10.6 or Linux, Windows PowerShell 3.0 or higher, 7-zip.<br>
    **Note :** [Qt 5.3][qt-project] or above must be located in C:\Qt. Root directory where the static versions of Qt are installed.<br>
-   By default, use C:\Qt\Static<br>
-   The [7-Zip Command Line Version][7-ZipCLI] located in C:\bin<br>
-   This PowerShell script belongs to Thierry Lelegard. I had to modify it (see the code) cause it doesn't work for me. But now it works.<br>
-   The files location and links are changing, so you'll have to change the script to get it working again in the future.<br>
+   By default, use C:\Qt\Static The [7-Zip Command Line Version][7-ZipCLI] located in C:\bin<br>
+   This PowerShell script belongs to Thierry Lelegard. I had to modify it (see the code) cause it doesn't work for me. But now it works. The files location and links are changing, so you'll have to change the script to get it working again in the future.<br>
    Here is [instruction][qt-static] how to play with it.<br>
    
 * `theClock`: Shows window form with current date and clock. Just demonstrate how to do it in Qt C++<br>
