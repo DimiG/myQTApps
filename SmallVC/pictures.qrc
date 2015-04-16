@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>images/exit_16x16.png</file>
+        <file>images/ok_16x16.png</file>
+        <file>images/about_16x16.png</file>
+        <file>images/cancel_16x16.png</file>
+        <file>images/media_16x16.png</file>
+        <file>images/folder_16x16.png</file>
+        <file>images/door_16x16.png</file>
+        <file>images/loader_32x32_anim.gif</file>
+    </qresource>
+</RCC>

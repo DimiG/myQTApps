@@ -16,15 +16,18 @@ Codes description
    ***Requires :*** [Qt Creator][qt-project] preinstalled (prebuilt Qt / MinGW environment), Windows 7, Mac OS 10.6 or Linux, Windows PowerShell 3.0 or higher, 7-zip.<br>
    **Note :** [Qt 5.3][qt-project] or above must be located in C:\Qt. Root directory where the static versions of Qt are installed. By default, use C:\Qt\Static The [7-Zip Command Line Version][7-ZipCLI] located in C:\bin<br>
    This PowerShell script belongs to Thierry Lelegard. I had to modify it (see the code) cause it didn't work for me. But now it works. The files location and links are changing, so you'll have to change the script to get it working again in the future.<br>
-   Here is [instruction][qt-static] how to play with it.<br>
-   
+   Here is [instruction][qt-static] how to play with it.
+
 * `theClock`: Shows window form with current date and clock. Just demonstrate how to do it in Qt C++<br>
-   **Note :** This code is not well optimized. If any tips, write me about.<br>
+   **Note :** This code is not well optimized. If any tips, write me about.
+
+* `SmallVC`: Small Video Convertor GUI frontend application for [ffmpeg][ffmpeg].<br>
+   ***Requires :*** [ffmpeg][ffmpeg] accessible via OS PATH.
 
 * `All Applications`:<br>
    ***Requires :*** [Qt Creator][qt-project] preinstalled, Windows 7, Mac OS 10.6 or Linux<br>
    ***Important:*** To distribute your compiled programm you need to add additional libs into your relese folder.
-   
+
 * `To be continued...`
 
 Your Questions - my Answers
@@ -37,7 +40,7 @@ Exist some reasons for it:
 * I don't like to make one job many times and want to save it in the cloud.
 
 * If someone have same needs he can contribute and improve this code.
-  
+
 * I want to use the `Git` for personal study and project collaboration
 
 ### When do you finish?
@@ -68,3 +71,4 @@ send a Pull Request.
 [QtlMovie]:http://sourceforge.net/p/qtlmovie/code/ci/master/tree/build
 [qt-static]:http://qt-project.org/wiki/How-to-build-a-static-Qt-for-Windows-MinGW
 [7-ZipCLI]:http://www.7-zip.org/download.html
+[ffmpeg]:http://ffmpeg.zeranoe.com/builds
