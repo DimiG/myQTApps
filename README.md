@@ -24,6 +24,8 @@ Codes description
 * `SmallVC`: Small Video Convertor GUI frontend application for [ffmpeg][ffmpeg].<br>
    ***Requires :*** [ffmpeg][ffmpeg] accessible via OS PATH.
 
+* `WoL`: Wake Up on LAN for specific MAC address of device. Just send the wakeup packet to the LAN to activate the WoL device.
+
 * `All Applications`:<br>
    ***Requires :*** [Qt Creator][qt-project] preinstalled, Windows 7, Mac OS 10.6 or Linux<br>
    ***Important:*** To distribute your compiled programm you need to add additional libs into your relese folder.
